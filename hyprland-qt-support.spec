@@ -7,13 +7,10 @@ URL:		https://hyprland.org/
 License:	BSD-3-Clause
 Group:		Hyprland
 
-BuildRequires:	pkgconfig(Qt6Core)
 BuildRequires:	pkgconfig(Qt6Qml)
 BuildRequires:	pkgconfig(Qt6Quick)
 BuildRequires:	pkgconfig(Qt6QuickControls2)
 BuildRequires:	pkgconfig(hyprlang)
-
-BuildRequires:	pkgconfig(vulkan)
 
 
 BuildSystem:	cmake
