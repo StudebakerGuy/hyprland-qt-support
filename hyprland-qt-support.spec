@@ -11,6 +11,9 @@ BuildRequires:	pkgconfig(Qt6Core)
 BuildRequires:	pkgconfig(Qt6Qml)
 BuildRequires:	pkgconfig(Qt6Quick)
 BuildRequires:	pkgconfig(Qt6QuickControls2)
+BuildRequires:	pkgconfig(hyprland) >= 0.6.0
+BuildRequires:	pkgconfig(vulkan)
+
 BuildSystem:	cmake
 BuildOption:	-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo
 BuildOption:	-DCMAKE_INSTALL_PREFIX:PATH=%{_prefix}
