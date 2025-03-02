@@ -5,7 +5,7 @@ Source0:	https://github.com/hyprwm/hyprland-qt-support/archive/v%{version}/%{nam
 Summary:	A qt6 qml style provider for hypr* apps.
 URL:		https://hyprland.org/
 License:	GPL
-Group:		System
+Group:		Hyprland
 BuildRequires:	cmake
 BuildRequires:	pkgconfig(Qt6Core)
 BuildRequires:	pkgconfig(Qt6Qml)
