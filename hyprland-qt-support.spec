@@ -11,8 +11,8 @@ BuildRequires:	pkgconfig(Qt6Core)
 BuildRequires:	pkgconfig(Qt6Qml)
 BuildRequires:	pkgconfig(Qt6Quick)
 BuildRequires:	pkgconfig(Qt6QuickControls2)
+BuildRequires:	pkgconfig(hyprlang)
 
-BuildRequires:	pkgconfig(hyprland) >= 0.6.0
 BuildRequires:	pkgconfig(vulkan)
 
 
